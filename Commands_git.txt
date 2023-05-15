@@ -1,3 +1,0 @@
-
-
-rm -rf .git -> Eliminar una carpeta inicializada de Git 
