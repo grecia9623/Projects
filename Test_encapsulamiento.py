@@ -22,9 +22,11 @@ class Persona:
         return "hola" + self.nombre
     def getIdentificacion(self):
         return self.__id
-    def set
+    def setIdentificacion(self,valor):
+        self.__id = valor
 
 persona1 = Persona(45678,"Jose",45)
+persona1.setIdentificacion(12345)
 #print(persona1._Persona__id) #para acceder a el atributo privado se
 #agrego _nombreClase__nombreAtributoPriv
 print(persona1.getIdentificacion())
